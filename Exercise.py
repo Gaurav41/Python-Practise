@@ -131,6 +131,7 @@
 
 # In case of input data being supplied to the question, it should be assumed to be a console input.
 
+
 # Question 7:
 
 # A website requires the users to input username and password to register. Write a program to check the validity of password input by users.

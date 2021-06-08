@@ -13,10 +13,9 @@ def profile(fun):
     def inner(*args, **kwargs):
         pr = cProfile.Profile()
         pr.enable()
-        fun()
+        fun(*args, **kwargs)
         pr.disable()
         pr.print_stats()
-
     return inner()
 
 profile(fun)

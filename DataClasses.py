@@ -1,21 +1,21 @@
 from dataclasses import dataclass
 
-# @dataclass
-# class DataClassCard:
-#     rank: str
-#     suit: str
-#
-#
-# dataClassObj = DataClassCard("A","ACE")
-# print(dataClassObj)
-# print(dataClassObj.suit)
-# print(dataClassObj.__dir__())
-#
-# anotherObj = DataClassCard("A","ACE")
-# print(dataClassObj == anotherObj)
-#
-# anotherObj = DataClassCard("Q","Queen")
-# print(dataClassObj == anotherObj)
+@dataclass
+class DataClassCard:
+    rank: str
+    suit: str
+
+
+dataClassObj = DataClassCard("A","ACE")
+print(dataClassObj)
+print(dataClassObj.suit)
+print(dataClassObj.__dir__())
+
+anotherObj = DataClassCard("A","ACE")
+print(dataClassObj == anotherObj)
+
+anotherObj = DataClassCard("Q","Queen")
+print(dataClassObj == anotherObj)
 
 
 # @dataclass

@@ -9,12 +9,7 @@ if __name__ == "__main__":
 	print(z)
 
 #
-# Microsoft Windows [Version 10.0.19042.685]
-# (c) 2020 Microsoft Corporation. All rights reserved.
-# C:\Users\NCS\AppData\Local\Programs\Python\Python39\python.exe: can't o
-# pen file 'C:\Users\NCS\PycharmProjects\pythonProject\example.py': [Errn
-# o 2] No such file or directory
-#
+
 # (PycharmEnv01) C:\Users\NCS\PycharmProjects\pythonProject>python debugg
 # ing\example.py
 # Num 1: 5
@@ -25,13 +20,7 @@ if __name__ == "__main__":
 #  example.py
 # Error: example.py does not exist
 #
-# (PycharmEnv01) C:\Users\NCS\PycharmProjects\pythonProject>python -m pdb
-# debugging\example.py
-# F:\Cuelogic\Training\Python\environments\PycharmEnv01\Scripts\python.ex
-# e: Error while finding module specification for 'pdbdebugging\\example.
-# py' (ModuleNotFoundError: No module named 'pdbdebugging\\example'). Try
-#  using 'pdbdebugging\example' instead of 'pdbdebugging\example.py' as t
-# he module name.
+
 #
 # (PycharmEnv01) C:\Users\NCS\PycharmProjects\pythonProject>python -m pdb
 #  debugging\example.py
